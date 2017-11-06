@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "postcss assets/stylesheets/*.css -u postcss-cssnext --local-plugins -o --dir '' bundle.css"
+    "build": "postcss assets/stylesheets_source/*.css --use postcss-cssnext --local-plugins --dir 'assets/stylesheets'"
   },
   "author": "",
   "license": "ISC"
