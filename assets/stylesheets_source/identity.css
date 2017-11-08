@@ -10,11 +10,11 @@ body{
 }
 
 section,.section{
-  margin-left:  15px;
+  /*margin-left:  15px;
   margin-right: 15px;
-  margin: auto;
-  max-width: 660px;
-  max-width: 33rem;
+  margin: auto;*/
+  /*max-width: 660px;
+  max-width: 33rem;*/
 }
 
 /* Typography */
