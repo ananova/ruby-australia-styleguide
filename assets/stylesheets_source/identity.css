@@ -61,7 +61,6 @@ h6 {
 
 /*LOGICAL MARKUP*/
 em {
-  font-size: 20px;
   font-size: 1rem;
   line-height: 30px;
   font-style: italic;
@@ -99,7 +98,6 @@ blockquote {
 /*LISTS*/
 ol {
   counter-reset: primary-list-counter;
-  padding-left: 40px;
   padding-left: 2rem;
 }
 
@@ -108,38 +106,29 @@ ol>li:before {
   content: counter(primary-list-counter);
   counter-increment: primary-list-counter;
   font-family: 'Anonymous Pro', monospace;
-  font-size: 20px;
   font-size: 1rem;
   font-weight: bold;
   color: #FF0162;
   border-right: solid 2px;
   border-right-color: #FF0162;
   background-color: transparent;
-  width: 20px;
   width: 1rem;
-  height: 30px;
   height: 1.5rem;
   text-align: center;
-  margin-left: -50px;
   margin-left: -2.5rem;
 }
 
 ol>li {
   list-style-type: none;
-  padding-top: 3px;
   padding-top: .15rem;
-  margin: 20px;
   margin: 1rem;
 }
 
 ul>li {
   list-style: unset;
   color:black;
-  font-size: 20px;
   font-size: 1rem;
-  margin: 20px;
   margin: 1rem;
-  padding-top: 3px;
   padding-top: .15rem;
   margin-left: -30px;
 }
