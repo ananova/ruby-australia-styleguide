@@ -33,4 +33,4 @@ DF CSS Manifesto
 7. If you're using variables you can give them their own CSS file too if you have a decent build process.
 8. The Styleguide (styleguide.html) is not just for looks, it's a detailed receipe book featuring key ingredients as well as the canonical recipies for making composite components (anything that's beyond a native html elements), hence the copyable code examples.
 9. UI components and more sophisticated UI elements are not documented in the stylesheets, document them in the Style/Identity Guide (just as designers always have).
-10. Strong opinions, loosly held. Iterate.
+10. Strong opinions, loosely held. Iterate.
